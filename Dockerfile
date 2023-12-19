@@ -2,13 +2,7 @@
 FROM eclipse-temurin:17-jdk-alpine AS builder
 
 WORKDIR /app
-
-COPY mvnw .
-COPY .mvn .mvn
-COPY pom.xml .
-RUN ./mvnw dependency:resolve
-
-COPY src ./src
+COPY . .
 RUN ./mvnw package
 
 # Run stage
