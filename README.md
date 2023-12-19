@@ -35,7 +35,7 @@ You need a Koyeb account to successfully deploy and run this application. If you
 
 The fastest way to deploy the Java application is to click the **Deploy to Koyeb** button below.
 
-[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?name=example-java&type=git&repository=koyeb%2Fexample-java&branch=main&run_command=java+-jar+target%2Fexample-app-1.0-SNAPSHOT.jar&ports=8000%3Bhttp%3B%2F)
+[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?name=example-java&type=git&repository=koyeb%2Fexample-java&branch=main&run_command=java+-jar+target%2Fexample-java-1.0-SNAPSHOT.jar&ports=8000%3Bhttp%3B%2F)
 
 Clicking on this button brings you to the Koyeb App creation page with everything pre-set to launch this application.
 
@@ -53,7 +53,7 @@ On the [Koyeb Control Panel](//app.koyeb.com/apps), click the **Create App** but
 2. In the repositories list, select the repository you just forked.
 3. Specify the branch to deploy, in this case `main`.
 4. Choose the builder for the repository.  This repository can be built using buildpacks or a Dockerfile.
-5. If building from a buildpack, open the "Build and deployment settings" and set the "Run command" to `java -jar target/example-app-1.0-SNAPSHOT.jar`.
+5. If building from a buildpack, open the "Build and deployment settings" and set the "Run command" to `java -jar target/example-java-1.0-SNAPSHOT.jar`.
 6. Give your App a name, i.e `java-on-koyeb`, and click **Deploy**.
 
 You will be taken to the deployment page where you can follow the build of your Java application. Once the build is completed, your application will be deployed and you will be able to access it via `<YOUR_APP_NAME>-<YOUR_ORG_NAME>.koyeb.app`.
