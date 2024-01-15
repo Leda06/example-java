@@ -26,3 +26,4 @@ jobs:
           git-run-command: "java -jar target/example-java-1.0-SNAPSHOT.jar"
           service-ports: "8000:http"
           service-routes: "/:8000"
+          skip-cache: true
