@@ -23,6 +23,7 @@ jobs:
         uses: koyeb/action-git-deploy@v1
         with:
           app-name: java-${{ github.ref_name }}
+          git-builder: "buildpack"
           git-run-command: "java -jar target/example-java-1.0-SNAPSHOT.jar"
           service-ports: "8000:http"
           service-routes: "/:8000"

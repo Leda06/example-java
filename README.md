@@ -35,7 +35,7 @@ You need a Koyeb account to successfully deploy and run this application. If you
 
 The fastest way to deploy the Java application is to click the **Deploy to Koyeb** button below.
 
-[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?name=example-java&type=git&repository=koyeb%2Fexample-java&branch=main&run_command=java+-jar+target%2Fexample-java-1.0-SNAPSHOT.jar&ports=8000%3Bhttp%3B%2F)
+[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?name=example-java&type=git&repository=koyeb%2Fexample-java&branch=main&builder=buildpack&run_command=java+-jar+target%2Fexample-java-1.0-SNAPSHOT.jar&ports=8000%3Bhttp%3B%2F)
 
 Clicking on this button brings you to the Koyeb App creation page with everything pre-set to launch this application.
 
